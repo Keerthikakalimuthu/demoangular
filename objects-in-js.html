@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <p>Let us discuss about Objects</p>
+
+
+
+
+
+    <script type="text/javascript">
+        // declare objects in js
+
+        const content=
+        {
+             // objects enclosed with cruly brackets and consitsts of key value pairs
+             name:"keerthi",
+            //  defining array inside a objects
+             roles:["software developer","frontend designer" , "framing wireframe"],
+            // defining another object inside a object
+             teammembers:{
+                    role:["ui/ux designer","full stack","cloud","tester"],
+                    eoe:[2,6,7,3]
+
+             },
+
+            //  defining a function inside objects
+
+            events:function()
+            {
+                console.log("hello coder keerthi")
+            }
+        }
+
+
+        // print content object
+        console.log(content);
+        // calling array values inside a objects
+        console.log(content.roles);
+        // calling object inside another objects
+        console.log(content.teammembers.eoe);
+
+        // calling a function inside a objects
+        console.log(content.events());
+
+    </script>
+</body>
+</html>
